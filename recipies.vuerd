@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -64,
-    "scrollLeft": -584,
+    "scrollTop": -122,
+    "scrollLeft": -586,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -164,9 +164,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 511,
-          "top": 232,
-          "zIndex": 161,
+          "left": 342.6667,
+          "top": 261.9999,
+          "zIndex": 11,
           "widthName": 60,
           "widthComment": 60
         },
@@ -274,7 +274,7 @@
           "active": false,
           "left": 924,
           "top": 72,
-          "zIndex": 155,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -382,7 +382,7 @@
           "active": false,
           "left": 340,
           "top": 0,
-          "zIndex": 172,
+          "zIndex": 6,
           "widthName": 66.70106506347656,
           "widthComment": 60
         },
@@ -465,9 +465,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1438,
-          "top": 151,
-          "zIndex": 171,
+          "left": 1348,
+          "top": 362.6669,
+          "zIndex": 10,
           "widthName": 89.49006652832031,
           "widthComment": 60
         },
@@ -525,7 +525,7 @@
             "id": "8cd401cb-8042-4085-bcea-bd8bdc155e42"
           },
           {
-            "name": "list",
+            "name": "item",
             "comment": "",
             "dataType": "TEXT",
             "default": "",
@@ -550,9 +550,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 134,
-          "top": 331,
-          "zIndex": 149,
+          "left": 210.6665,
+          "top": 522.6667,
+          "zIndex": 14,
           "widthName": 89.1260986328125,
           "widthComment": 60
         },
@@ -637,7 +637,7 @@
           "active": false,
           "left": 891,
           "top": 516,
-          "zIndex": 167,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -661,8 +661,8 @@
           "columnIds": [
             "e51f274b-0122-41bb-be55-33ac9b28421d"
           ],
-          "x": 888.9521331787109,
-          "y": 317.75,
+          "x": 720.6188331787109,
+          "y": 304.8749,
           "direction": "right"
         },
         "end": {
@@ -671,7 +671,7 @@
             "61269d7e-bbea-458d-88a1-5ef489a795f4"
           ],
           "x": 924,
-          "y": 109.75,
+          "y": 185.25,
           "direction": "left"
         },
         "constraintName": "fk_users_to_recipies",
@@ -687,8 +687,8 @@
           "columnIds": [
             "e51f274b-0122-41bb-be55-33ac9b28421d"
           ],
-          "x": 699.9760665893555,
-          "y": 232,
+          "x": 531.6427665893555,
+          "y": 261.9999,
           "direction": "top"
         },
         "end": {
@@ -696,9 +696,9 @@
           "columnIds": [
             "ccecec3c-4d15-42df-a462-fd2f5fca542e"
           ],
-          "x": 697.4580688476562,
-          "y": 37.75,
-          "direction": "right"
+          "x": 518.7290344238281,
+          "y": 151,
+          "direction": "bottom"
         },
         "constraintName": "fk_users_to_comments",
         "visible": true,
@@ -714,7 +714,7 @@
             "39904ae2-da4d-42bf-8cde-f8ff246db48e"
           ],
           "x": 924,
-          "y": 185.25,
+          "y": 109.75,
           "direction": "left"
         },
         "end": {
@@ -723,7 +723,7 @@
             "1f65cb6d-b9de-4623-9dd2-3e604eb03b27"
           ],
           "x": 697.4580688476562,
-          "y": 113.25,
+          "y": 75.5,
           "direction": "right"
         },
         "constraintName": "fk_recipies_to_comments",
@@ -748,8 +748,8 @@
           "columnIds": [
             "f0931e3b-4339-44f5-b848-08001926a59a"
           ],
-          "x": 1438,
-          "y": 216.25,
+          "x": 1348,
+          "y": 427.9169,
           "direction": "left"
         },
         "constraintName": "fk_recipies_to_recipie_images",
@@ -765,17 +765,17 @@
           "columnIds": [
             "e51f274b-0122-41bb-be55-33ac9b28421d"
           ],
-          "x": 511,
-          "y": 317.75,
-          "direction": "left"
+          "x": 531.6427665893555,
+          "y": 433.4999,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "037bd871-b3d9-4e1e-9dba-53f03aa847a2",
           "columnIds": [
             "8cd401cb-8042-4085-bcea-bd8bdc155e42"
           ],
-          "x": 481,
-          "y": 396.25,
+          "x": 557.6665,
+          "y": 587.9167,
           "direction": "right"
         },
         "constraintName": "fk_users_to_shopping_lists",
@@ -791,9 +791,9 @@
           "columnIds": [
             "e51f274b-0122-41bb-be55-33ac9b28421d"
           ],
-          "x": 699.9760665893555,
-          "y": 403.5,
-          "direction": "bottom"
+          "x": 720.6188331787109,
+          "y": 390.6249,
+          "direction": "right"
         },
         "end": {
           "tableId": "25fdd80c-5213-4cef-8c8f-a2685583028b",
